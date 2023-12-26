@@ -1,11 +1,12 @@
-package ucu.edu.Task2;
+package ucu.edu.task2;
 
 import com.mailjet.client.MailjetRequest;
 import com.mailjet.client.MailjetResponse;
 
-import lombok.*;
+import lombok.Setter;
+import lombok.Getter;
 
-@Data
+@Setter @Getter
 public class Client {
     private static int idCounter = 0;
 

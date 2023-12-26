@@ -1,6 +1,6 @@
-package ucu.edu.Task2.codes;
+package ucu.edu.task2.codes;
 
-import ucu.edu.Task2.Client;
+import ucu.edu.task2.Client;
 
 public interface LetterStrategy {
     String generateLetter(Client client);

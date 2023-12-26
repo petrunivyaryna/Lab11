@@ -1,6 +1,6 @@
-package ucu.edu.Task2;
+package ucu.edu.task2;
 
-import ucu.edu.Task2.codes.LetterStrategy;
+import ucu.edu.task2.codes.LetterStrategy;
 
 public class MailInfo {
     private Client client;

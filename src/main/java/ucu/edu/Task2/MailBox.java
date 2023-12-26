@@ -1,4 +1,4 @@
-package ucu.edu.Task2;
+package ucu.edu.task2;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,7 +17,8 @@ public class MailBox {
         infos.add(mailInfo);
     }
 
-    public void sendAll(MailSender mailSender) throws MailjetException, MailjetSocketTimeoutException {
+    public void sendAll(MailSender mailSender)
+            throws MailjetException, MailjetSocketTimeoutException {
         for (MailInfo mailInfo : infos) {
             mailSender.sendMail(mailInfo);
         }
