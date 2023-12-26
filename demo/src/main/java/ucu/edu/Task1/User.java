@@ -1,4 +1,4 @@
-package ucu.edu;
+package ucu.edu.Task1;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
