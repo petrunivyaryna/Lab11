@@ -1,4 +1,4 @@
-package ucu.edu;
+package ucu.edu.Task3;
 public interface MyImage {
     void display();
 }
